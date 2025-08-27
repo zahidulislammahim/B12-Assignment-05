@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hotline</title>
+    <script src="https://kit.fontawesome.com/034c71b4cb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="hind-madurai">
+    <header>
+        <nav class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-4 bg-white shadow gap-4 md:gap-0">
+            <div class=" flex items-center gap-3 p-4">
+                <img  src="assets/logo.png" alt=""  class="w-10 h-10 md:w-[50px] md:h-[50px]">
+                <h1 class="font-extrabold text-[#006747] text-lg md:text-2xl">Emergency <br>Service</h1>
+            </div>
+            <div class="flex flex-wrap justify-center md:justify-end items-center gap-3 md:gap-5 text-gray-700">
+                <div class="flex items-center gap-2 bg-[#ecfff0] px-4 md:px-6 py-2 md:py-3 rounded-full">
+                    <span class="font-bold">0</span>
+                    <img src="assets/heart.png" alt="" class="w-5 h-5">
+                </div>
+                <div class="flex items-center gap-2 bg-[#ecfff0] px-4 md:px-6 py-2 md:py-3 rounded-full">
+                    <span class="font-bold">100</span>
+                    <img src="assets/coin.png" alt="" class="w-5 h-5">
+                </div>
+                <div class="flex items-center gap-2 bg-[#00A63E] px-4 md:px-6 py-2 md:py-3 rounded-full">
+                     <span id="copyCount" class="font-bold text-white">0</span>
+                    <span class="text-sm md:text-base font-bold text-white">Copy</span>
+                </div>
+            </div>
+        </nav>
+        <main  class="bg-gradient-to-br from-emerald-700 to-emerald-900 text-white py-10 text-center" >
+            <img src="assets/logo-dark.png" alt="" class="mx-auto w-[92px] h-[92px] mb-4">
+            <h2 class="text-5xl font-bold mb-5">Emergency Service Directory</h2>
+            <p class="text-xl" >Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </main>
+    </header>
+    <section class="px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-4 bg-[#f5fff6]">
+        <div class="md:col-span-2">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                   <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+
+                  <!-- card-1  -->
+                <div class="card bg-white p-6 rounded-xl shadow-md w-90">
+                    <div class="flex items-center justify-between ">
+                        <div class="bg-[#FFE3E2] rounded-lg p-3">
+                            <img src="assets/emergency.png" alt="" class="w-12 h-12">
+                        </div>
+                        <button class="likeBtn ">
+                            <i class="fa-regular fa-heart text-3xl "></i>
+                        </button>
+                    </div>
+                    <div class="mt-3 text-left">
+                       <h4 class="font-bold text-lg">National Emergency Number</h4>
+                       <p class="text-gray-500 text-sm">National Emergency</p>
+                        <p class="number text-2xl font-bold mt-2">999</p>
+                        <span class="inline-block text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full mt-2">All</span>
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                         <button class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold" >
+                        <i class="fa-regular fa-copy"></i>Copy
+                         </button>
+                         <button class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black">
+                         <i class="fa-solid fa-phone"></i>Call
+                         </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- history section -->
+        <div class="bg-white rounded-lg shadow p-4"> 
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-semibold text-xl flex items-center gap-2">
+                 <i class="fa-regular fa-clock text-2xl"></i>Call History
+                </h3>
+                <button id="clearHistory" class="px-6 py-3 rounded-full bg-green-600 text-white rounded hover:bg-gray-300 hover:text-black">Clear
+                </button>
+            </div>
+            <ul id="historyList" class="space-y-2 text-sm text-gray-700"></ul>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
