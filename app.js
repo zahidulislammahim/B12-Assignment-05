@@ -1,4 +1,4 @@
-// -------------------- SELECTORS --------------------
+// -------------------- SELECTORS -------------------
         const heartCount = document.getElementById("heartCount");
         const coinCount = document.getElementById("coinCount");
         const copyCount = document.getElementById("copyCount");
