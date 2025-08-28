@@ -11,6 +11,7 @@
         let copies = 0;
 
 
+
         // Function to copy text to clipboard (works in all environments)
         function copyToClipboard(text) {
             // Create a temporary textarea element
@@ -41,6 +42,8 @@
             }
         }
 
+
+    
         // Events
         cardContainer.addEventListener("click", (e) => {
             const likeBtn = e.target.closest(".likeBtn");
@@ -57,26 +60,13 @@
                 const card = copyBtn.closest(".card");
                 const number = card.querySelector(".number").textContent;
                 const name = card.querySelector("h4").textContent;
-
                 const success = copyToClipboard(number);
-                
+            
                 if (success) {
                     alert(`✅ ${name} number copied: ${number}`);
                     copies++;
-                    copyCount.textContent = copies;
-
-                    // Add visual feedback on the button
-                    const copyIcon = copyBtn.querySelector("i");
-                    copyIcon.classList.remove("fa-regular");
-                    copyIcon.classList.add("fa-solid", "text-green-600");
-                    
-                    setTimeout(() => {
-                        copyIcon.classList.remove("fa-solid", "text-green-600");
-                        copyIcon.classList.add("fa-regular");
-                    }, 1000);
-                } else {
-                    showToast("❌ Failed to copy. Please try again.", false);
-                }
+                    copyCount.textContent = copies;   
+                } 
             }
 
             // -------------------- CALL --------------------
